@@ -6,7 +6,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Получаем токен из переменной окружения
-BOT_TOKEN = os.getenv(7592986586, AAFXGYbQ9-bVhPr6LwEB8A4taCRt170NxgQ)
+BOT_TOKEN = os.getenv('BOT_TEKON', 7592986586:AAFXGYbQ9-bVhPr6LwEB8A4taCRt170NxgQ)
 
 # API endpoints
 API_SERVERS = 'https://frizmine.shop/api/servers/public'
